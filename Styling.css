@@ -1,0 +1,98 @@
+.banner{
+width:100%;
+height: 100vh;
+background-image: url(mo.jpg);
+background-position: center;
+background-size: cover;
+opacity: 1;
+}
+.banner h1{
+    position: relative;
+    left: 450px;
+    margin: 0;
+    padding-top: 35px;
+    color: goldenrod;
+}
+.bar{
+width: 85%;
+margin:0;
+padding: 80px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.bar ul li a{
+    color: pwurple;
+    text-transform: uppercase;
+    margin-right: 25px;
+    position: relative;
+  left: 385px;
+  text-decoration: none;
+}
+
+.sec{
+    width: 85%;
+    margin: 0;
+    padding: 80px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between; 
+}
+.sec ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: center;
+}
+.sec ul li a{
+    color: purple;
+    text-transform: uppercase;
+    margin-right: 20px;
+    position: relative;
+  left: 400px;
+}
+.para p {
+ font-family: sans-serif;
+ font-display:initial;
+    font-size: 42px;
+    width: 100%;
+ top: 39%;
+ right: -50%;
+    color: goldenrod;
+    text-transform: uppercase;
+    position: absolute;
+text-align: center;
+transform: translate(-50%);
+}
+
+.bar ul li ::after{
+
+    content: '';
+    height: 3px;
+    width:0;
+background: red;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: 0.5s;
+}
+.bar ul li :hover::after{
+width: 100%;}
+.buttons{
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 0;
+border-radius: 25px;
+font-weight: bold;
+border: 2px solid#009688;
+background: transparent;
+color: #fff;
+cursor: pointer;
+}
